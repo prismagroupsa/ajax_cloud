@@ -1,0 +1,14 @@
+{
+  "domain": "ajax_cloud",
+  "name": "Ajax Cloud Integration",
+  "version": "1.0.0",
+  "documentation": "https://github.com/yourusername/ajax-ha-integration",
+  "issue_tracker": "https://github.com/yourusername/ajax-ha-integration/issues",
+  "requirements": [
+    "aiohttp>=3.9.0",
+    "pyjwt>=2.8.0"
+  ],
+  "codeowners": ["@yourusername"],
+  "config_flow": true,
+  "iot_class": "cloud_polling"
+}
